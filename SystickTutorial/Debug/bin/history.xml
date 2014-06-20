@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.4.1 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=SystickTutorial.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\SystickTutorial -TC:\CooCox\CoIDE\configuration\ProgramData\SystickTutorial/arm-gcc-link.ld -g">
+      <target file="SystickTutorial.elf" lastModified="146ba302514">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="146ba301d87"/>
+         <source file="..\obj\main.o" lastModified="146ba301f04"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="146ba301f47"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="146ba3020b9"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="146ba302237"/>
+      </target>
+   </processor>
+</history>

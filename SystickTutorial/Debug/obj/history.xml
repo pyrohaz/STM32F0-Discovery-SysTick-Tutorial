@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\STM32F0-Discovery Tutorials\Systick\STM32F0-Discovery-SysTick-Tutorial\stm32_lib\inc -I..\..\..\workspace\STM32F0-Discovery Tutorials\Systick\STM32F0-Discovery-SysTick-Tutorial -I..\..\..\workspace\STM32F0-Discovery Tutorials\Systick\STM32F0-Discovery-SysTick-Tutorial\stm32_lib -I..\..\..\workspace\STM32F0-Discovery Tutorials\Systick -I..\..\..\workspace\STM32F0-Discovery Tutorials\Systick\STM32F0-Discovery-SysTick-Tutorial\cmsis_core -I..\..\..\workspace\STM32F0-Discovery Tutorials\Systick\STM32F0-Discovery-SysTick-Tutorial\cmsis_boot">
+      <target file="stm32f0xx_gpio.o" lastModified="146ba302237">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="146b9bf6637"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="146ba301d87">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="146b9bf6646"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="146ba3020b9">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="146b9bf667e"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="146ba301f47">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="146b9bf664c"/>
+      </target>
+      <target file="main.o" lastModified="146ba301f04">
+         <source file="..\..\..\main.c" lastModified="146ba2e042c"/>
+      </target>
+   </processor>
+</history>
