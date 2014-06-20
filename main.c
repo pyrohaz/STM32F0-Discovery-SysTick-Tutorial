@@ -42,7 +42,7 @@ GPIO_InitTypeDef G;
 
 int main(void)
 {
-	//SystemInit(); //Ensure CPU is running at correctly set clock speed
+	SystemInit(); //Ensure CPU is running at correctly set clock speed
 	SystemCoreClockUpdate(); //Update SystemCoreClock variable to current clock speed
 	SysTick_Config(SystemCoreClock/MillisecondsIT); //Set up a systick interrupt every millisecond
 
